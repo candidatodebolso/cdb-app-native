@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".activity.CandidateDetailsActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                layout="@layout/candidate_item"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/fullNameTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/politicalPartyNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="TextView"
+                    android:textColor="@color/gray"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/fullNameTextView" />
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Biografia"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit aliquam vehicula. Integer ut eleifend nisi. Aliquam nunc quam, hendrerit ut vestibulum ac, laoreet nec est. Nunc porta, metus at vulputate tincidunt, mi massa sodales eros, in blandit risus turpis ut arcu. Sed vel quam porta enim mattis suscipit. In varius lobortis nulla, at vestibulum leo facilisis sed. Ut tempus, ante at bibendum tristique, arcu urna aliquam dolor, in varius velit leo a mauris. Vestibulum consequat eros eu elementum cursus. Suspendisse tempus turpis ac fringilla iaculis. Aliquam neque ipsum, ultricies nec ligula quis, consectetur lobortis nibh. In eget lobortis enim, vitae ultrices lectus."
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Principais propostas"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Mauris dignissim vestibulum justo. Aenean vehicula justo leo, id gravida velit lobortis eu. Fusce aliquam lacus ut velit consectetur mattis. Nulla a libero elementum, condimentum risus eget, vehicula arcu. Morbi sed purus sit amet lectus convallis vulputate. Vivamus suscipit lectus at convallis ultricies. Aliquam pulvinar, ante at pellentesque auctor, arcu eros commodo sapien, a mattis nibh magna quis ipsum. Aliquam commodo, massa non vulputate congue, augue risus pharetra lectus, sit amet viverra est nunc eget odio. In luctus sed mi eget pretium. Aenean nec ullamcorper tortor. Nunc quis mollis dui."
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

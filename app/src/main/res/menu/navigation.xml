@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_candidates"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="@string/candidate" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        android:title="@string/news" />
+
+    <item
+        android:id="@+id/navigation_test"
+        android:icon="@drawable/ic_casino_black_24dp"
+        android:title="@string/test" />
+
+    <item
+        android:id="@+id/navigation_poll"
+        android:icon="@drawable/ic_poll_black_24dp"
+        android:title="@string/poll" />
+
+</menu>

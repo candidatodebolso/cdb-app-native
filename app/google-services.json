@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "119148470285",
+    "firebase_url": "https://candidato-de-bolso-539ef.firebaseio.com",
+    "project_id": "candidato-de-bolso-539ef",
+    "storage_bucket": "candidato-de-bolso-539ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119148470285:android:b81e5cbc9f00d70e",
+        "android_client_info": {
+          "package_name": "br.com.candidatodebolso.candidatodebolso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119148470285-tg8l2ta1gm8170clt99jrh4skied5n6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.candidatodebolso.candidatodebolso",
+            "certificate_hash": "5f6369367ef133372a0fecb039ace8dc712cfd57"
+          }
+        },
+        {
+          "client_id": "119148470285-acsll5eirviv11clan7dki6gm4komjme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1KIQSAgxnuPM93RLX0qP7lzkN_r9ZsG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119148470285-acsll5eirviv11clan7dki6gm4komjme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
